@@ -1,11 +1,16 @@
 import Card from '@/components/card';
-
+import * as S from './styes';
 
 export default function Kemoel(){
   return(
     <>
-      <h1>Kemoel</h1>
-      <Card/>
+      <S.Container>
+        <Card/>
+        <Card/>
+        <Card/>
+        <Card/>
+        <Card/>
+      </S.Container>
     </>
   )
 }
